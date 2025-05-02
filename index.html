@@ -4,7 +4,7 @@
 <head >
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width,initial-scale=1"/>
-        <title lang="ar">شخصيات وطنية ارترية</title>
+        <title lang="ar">المسؤولية الفردية</title>
         <link rel="stylesheet" type="text/css" media="screen" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
         <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
         <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
@@ -27,16 +27,16 @@
     </SCRIPT>
     <html dir="ltr" lang="en">
     <nav aria-label="breadcrumb" class="header" style="border-radius: 5px ;font-weight:bold;padding: 20px">
-      <h1 style="color:white;font-size: 45px;font-family:Noto Sans " >شخصيات تاريخية ارترية</h1>
-        <p id = 'ctime' style="color:white" >Please Wait Seconds</p>
-
+      <h1 style="color:white;font-size: 45px;font-family:Noto Sans " >المسؤولية الفردية تجاه المجتمع</h1>
+        <p id = 'ctime' style="color:white" ></p>
+       <h2 style="color:gold;font-size: 35px" >د.حامد محمد حالفا</h2>
         <p style="color:blue;font-size:15px"></p>
         <p style="color:white;font-size:15px">***********</p>
     </nav>
 
      <div class="container" style="background-color:#A52A2A;font-weight:bold" >
         <marquee direction="right">
-        <p style="font-size:30px;color:white"> هي محاولة للتعريف بهذه الشخصيات التي تركت البصمة في الساحة الإرترية في مختلف المجالات النضالية والسياسية والتعليمية والثقافية والرياضية ، ليس بالضرورة الاقتناع بأفكارهم ولكننا نعرض هذه المعلومات كما هي منشورة في مختلف المواقع  ونعرضها للجميع وخاصة الجيل الجديد الذي لا يعرف الكثير عن ارتريا </p>
+        <p style="font-size:30px;color:white">ما المراد بالمسؤولية الفردية تجاه المجتمع</p>
        </marquee>
     </div>
 
@@ -153,12 +153,12 @@
 
     <body>
         <form onsubmit="return false" style="font-weight:bold">
-
+        <img src="media/LOGO2.png">
         </form>
 
-        <p style="font-weight:bold;color:maroon">********</p>
+        <p style="font-weight:bold;color:maroon"></p>
         <div class="container" style="border: 2px solid gold; background-color:gray;color:black;font-weight:bold;padding: 20px" >
-        <p style="background-color:white;font-size:30px">انقر على اسم الملف للاطلاع على المحتوى</p>
+        <p style="background-color:white;font-size:30px">أنقر على اسم الملف للاستماع للمحاضرة</p>
         </div>
         <p style="font-size:30px;font-weight:bold"></p>
 
@@ -171,13 +171,32 @@
 
     </tr>
     </thead>
-    <tbody style="font-size:30px">
-
-
+    <tbody style="font-size:25px">
 
     <tr>
-        <td style="text-align:center"><a href="media/ICONS.pdf">شخصيات وطنية ارترية</a></td>
+        <td style="text-align:center"><a href="media/1.mp4">المسؤولية الفردية (1)- جزء ١</a></td>
     </tr>
+
+    <tr>
+        <td style="text-align:center"><a href="media/2.mp4">المسؤولية الفردية (2)- جزء ١ </a></td>
+    </tr>
+
+    <tr>
+        <td style="text-align:center"><a href="media/3.mp4">المسؤولية الفردية - ٢</a></td>
+    </tr>
+
+    <tr>
+        <td style="text-align:center"><a href="media/4.mp4">المسؤلية الفردية - ٣</a></td>
+    </tr>
+
+    <tr>
+        <td style="text-align:center"><a href="media/5.mp4">الأسئلة الملحة ؛ وانت تجيب : ٤</a></td>
+    </tr>
+
+        <tr>
+        <td style="text-align:center"><a href="media/6.mp4">خاتمة محاضرة المسؤولية الفردية - ٥</a></td>
+    </tr>
+
 
 
     </tbody>
@@ -196,10 +215,10 @@
 <div class="container" style="border: 2px solid gold; color:gold;font-weight:bold;padding:20px;" >
         <footer style="font-size: 50px">
         <marquee direction="right">
-      <p style="font-size:35px">لأي ملاحظات أو اقتراحات أو اضافة شخصية أخرى نرجو مراسلتنا على البريد الالكتروني </p>
+      <p style="font-size:35px"> محاضرة المسؤولية الفردية تجاه المجتمع - منتج تجمع مسحليت </p>
         </marquee>
 
-      <p id = 'ntime' style="color:white;font-size: 20px" >eriticons@gmail.com</p>
+      <p id = 'ntime' style="color:white;font-size: 20px" >***</p>
 
 
     </footer>
@@ -207,18 +226,7 @@
      <nav style="color:maroon">***</nav>
 
     <body>
-    <py-script>
 
-     from datetime import datetime
-
-     now = datetime.now()
-     current_time = now.strftime("%Y-%m-%d")
-
-     result_place = Element("ctime")
-     result_place.write(current_time)
-
-
-    </py-script>
 
     </body>
     </html>
